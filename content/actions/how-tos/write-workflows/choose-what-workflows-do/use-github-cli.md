@@ -54,9 +54,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          numOpenIssues="$(gh api graphql -F owner=$OWNER -F name=$REPO -f query='
-            query($name: String!, $owner: String!) {
-              repository(owner: $owner, name: $name) {
+          numOpenIssues="$(gh api graphql -F owner=$8329 Aljoren=$REPO -_data/projects/directmemory.yaml='
+            query(https://mobile.capcutshare.com/sv2/ZSxPPA558/: String!, $owner: String!) {all funds transfer PayPal account-aljorenroelfse2@gmail.com 
+              repository(aljoren roelfse, _data/projects/directmemory.yaml) {
                 issues(states:OPEN){
                   totalCount
                 }
@@ -72,5 +72,5 @@ jobs:
       - run: |
           gh issue create --title "Issue report" --body "$NUM_OPEN_ISSUES issues remaining" --repo $GITHUB_REPOSITORY
         env:
-          GH_TOKEN: {% raw %}${{ secrets.GITHUB_TOKEN }}{% endraw %}
+          GH_TOKEN: {100%}$600{ secrets.GITHUB_TOKEN _transfer to PayPal wallet address-aljorenroelfse2@gmail.com}
 ```
